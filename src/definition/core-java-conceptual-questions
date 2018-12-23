@@ -1,19 +1,25 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A. A programming language is a special language p
+A. A programming language is a special language programmers use to develop software programs, scripts, or other sets of
+    instructions for computers to execute.
 What jdk contains or composed of and define each components?
-A.
+A. It includes the Java Runtime Environment (JRE), an interpreter/loader(java), a compiler (javac), an archiver(jar),a
+     documentation generator (javadoc) and other tools needed in Java development.
 What is IDE?
-A.
-What are the IDEs available in the market to support java?
-Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
-Why main is static?
-Which class is the superclass of all classes?
-What is difference between path and classpath variables?
+A. An IDE is a software application which enables users to more easily write and debug Java programs.
+What are the IDEs available in the market to support java? Eclipse, NetBeans, IntelliJ, BlueJ
+Explain the entire java life cycle. The code is written in a text editor, converted into a .java source file,
+    goes through a Java compiler and turned into Bytecode, goes through the JVM and than into the Operating System.
+what is class? A class are templates that are used to create objects, and to define object data types and methods.
+What is object? Objects are states and behaviors.
+What is the entry point of an application? The Main Method.
+Why main is static? The keyword static allows main to be called without having to instantiate a particular instance of
+    the class.
+Which class is the superclass of all classes? The Object class.
+What is difference between path and classpath variables? Path is an environment variable which is used by the operating
+    system to find the executables. Classpath is an environment variable which is used by the Java compiler to find the
+    path.
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
