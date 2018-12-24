@@ -20,15 +20,27 @@ Which class is the superclass of all classes? The Object class.
 What is difference between path and classpath variables? Path is an environment variable which is used by the operating
     system to find the executables. Classpath is an environment variable which is used by the Java compiler to find the
     path.
-What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
-What is Java Package and which package is imported by default?
-What is API? Name list of API that you have used so far.
-Does java support multiple inheritance, explain why or why not?
-What is method overloading and when it happens?
-Explain exceptions in java and how to handle it.
+What is the difference between an Interface and Abstract class? An interface can mostly declare methods, it can implement
+    methods if it is static. A method in Abstract class can only declare, methods without abstract has to implement.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ? No, you would use the Interface
+    or Abstract class by extending it or implementing it through a concrete class.
+what is Access Specifier? Access Specifiers specifies accessbibility of a data member, method, constructor or class.
+What is OOP ? Define each feature of java OOP. OOP is Object Oriented Programming,
+Inheritance: When one object acquires all the properties and behaviors of a parent object.
+Polymorphism: One task is performed by different ways. Also method overloading and method overriding.
+Abstraction: Hiding internal details and showing functionality.
+Encapsulation: Binding code and data together into a single unit.
+What is Java Package and which package is imported by default? A package is a mechanism to encapsulate a group of classes.
+    Java.lang package is imported by default.
+What is API? Name list of API that you have used so far. An API is a Application Programming Interface. Java.util.Scanner,
+    java.io.BufferedReader, java.util.ArrayList,
+Does java support multiple inheritance, explain why or why not? No, not through class. To reduce the complexity and
+    simplify the language.
+What is method overloading and when it happens? Method Overloading happens when a class has multiple methods with the
+    same name but different parameters.
+Explain exceptions in java and how to handle it. An exception is an abnormal condition. We use Exception Handling which
+    is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteExeption, etc
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
 What is final, finally and finalize?
