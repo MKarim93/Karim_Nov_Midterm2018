@@ -41,47 +41,74 @@ What is method overloading and when it happens? Method Overloading happens when 
     same name but different parameters.
 Explain exceptions in java and how to handle it. An exception is an abnormal condition. We use Exception Handling which
     is a mechanism to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteExeption, etc
-What is static keyword in java? How it has been used in variables and methods ?
-What is final and how it has been used variables and methods?
+What is static keyword in java? How it has been used in variables and methods ? The static keyword belongs to the class
+    than an instance of the class. A Static variable can be used to refer to the common property of all objects. A static
+    method can be invoked without the need for creating an instance of a class.
+What is final and how it has been used variables and methods? final keeps the value of variables the same, you cannot
+    change it. If you make any method as final, you cannot override it.
 What is final, finally and finalize?
-What is a constructor ?
-Can we have multiple constructors in a class?
-If we don't have a constructor declared, what is called during the object creation?
-What is "this" keyword in java ?
-What is "super" keyword in java? How many possible way can you use?
-What is JVM stand for ?
-Is JVM platform independent?
-What version of java are you using?
-What is JAR stand for ?
-What is the difference between JDK and JVM?
-What is the difference between JVM and JRE?
-What is compile time and run time?
-What is heap?
-How java manage it's memory?
-What is the difference between String, StringBuffer and StringBuilder?
-What is Singleton class?
-What is Serialization and Deserialization?
-when to use transient variable in java?
-Difference between while and do..while loop?
-What is Enum?
-What is Iterator?
-Which one will take more memory, an int or Integer?
-Why is String Immutable in Java?
-What is constructor chaining in Java?
-The difference between Serial and Parallel Garbage Collector?
-What is JIT stands for?
-Explain Java Heap space and Garbage collection?
-Can you guarantee the garbage collection process?
-What is the difference between stack and heap in Java?
-What is reflection in java and why is it useful?
-what is multithreading in java?
-What is the use of synchronization in Java?
-What is Framework?
-What are the testing Framework available in java?
-Difference between jUnit and testNG?
+Final is used to apply restrictions on class, method and variable.
+Finally is used to place important code, it will be executed whether exception is handled or not.
+Finalize is used to perform clean up processing jsut before object is garbage collected.
+What is a constructor ? It is a spceial type of method which is used to initialize the object.
+Can we have multiple constructors in a class? Yes.
+If we don't have a constructor declared, what is called during the object creation? Default Constructor.
+What is "this" keyword in java ? "this" keyword can be used to refer current class instance variable.
+What is "super" keyword in java? How many possible way can you use? The super keyword in Java is a reference variable
+    which is used to refer immediate parent class object. 3 Possible ways.
+What is JVM stand for ? Java Virtual Machine
+Is JVM platform independent? Yes.
+What version of java are you using? 11.0.1
+What is JAR stand for ? Java Archive.
+What is the difference between JDK and JVM? A JDK is a software development environment which is used to develop Java
+    applications and applets. JVM is a specification that provides a runtime environment in which Java bytecode can be
+    executed.
+What is the difference between JVM and JRE? JRE is a set of software tools which are used for developing Java applications.
+    JVM is a specification that provides a runtime environment in which Java bytecode can be exceuted.
+What is compile time and run time? Compile is happening when the code is being written, run time happens when the code
+    is executed.
+What is heap? Heap is a place in RAM where the object is stored.
+How java manage it's memory? Java Garbage Collection
+What is the difference between String, StringBuffer and StringBuilder? A String object cannot be changed,
+    StringBuffer is mutable, which means you can change the value of the object.
+    StringBuilder allows manipulating character sequences by appending, deleting and inserting characters and strings.
+What is Singleton class? A Singleton class is used to control object creation by keeping a private constructor.
+What is Serialization and Deserialization? Serialization is the process of converting an object into a sequence of bytes
+    which can be persisted to a disk or database or can be sent. Deserializtion is the process of reconstructing the
+    object from the serialized state.
+when to use transient variable in java? The transient keyword is to indicate to the Java Virtual Machine that the indicated
+    vaiable is not part of the persistent state of the object.
+Difference between while and do..while loop? The java while loop is a control flow statement that executes a part of the
+    programs repeatedly on the basis of given boolean condition. The do while loop is a control flow statement that
+    executes a part of the programs at least once and the further execution depends upon the given boolean condition.
+What is Enum? Enum in Java is a data type that contains fixed set of constants.
+What is Iterator? An iterator is an interface that is used in place of Enumerations in the Java Collection Framework.
+Which one will take more memory, an int or Integer? An int and integer will hold the same data.
+Why is String Immutable in Java? Sting objects cannot be changed or modified.
+What is constructor chaining in Java? Constructor chaining is the process of calling one constructor from another
+    constructor with respect to current object.
+The difference between Serial and Parallel Garbage Collector? Serial Collector is mostly designed for single-threaded
+    environments. Parallel Garbage collector is used for muti-threaded environments.
+What is JIT stands for? Just In Time.
+Explain Java Heap space and Garbage collection? The Heap is the space where objects are stored. The Garbage Collection
+    cleans the Heap of objects no longer in use.
+Can you guarantee the garbage collection process? No.
+What is the difference between stack and heap in Java? Stack is used for static memory allocation and Heap for dynamic
+    memory allocation.
+What is reflection in java and why is it useful? Java Reflection is a process of examining or modifying the run time
+    behavior of a Class at run time.
+what is multithreading in java? A thread is a lightweight sub-process, the smallest unit of processing. Mutithreading
+    in Java is a process of executing mutliple threads simultaneously.
+What is the use of synchronization in Java? Synchronization in Java is the capability to control the access of multiple
+    threads to any shared resource.
+What is Framework? Frameworks generally refer to broad software development platforms.
+What are the testing Framework available in java? Junit, TestNG
+Difference between jUnit and testNG? JUnit methods have to be declared as static. TestNG does not have this constraint.
 What are the dependencies for this project?
-what is dependency injection in java?
-What is static binding and dynamic binding?
+what is dependency injection in java? Dependency injection is a technique whereby one object supplies the dependencies
+    of another object.
+What is static binding and dynamic binding? Static Binding: When type of the object is determined at compiled time, it
+    is known as static binding. Dynamic Binding: When type of the object is determined at run-time. 
 
 
 
