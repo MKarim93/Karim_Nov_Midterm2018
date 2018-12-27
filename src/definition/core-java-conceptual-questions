@@ -108,7 +108,7 @@ What are the dependencies for this project?
 what is dependency injection in java? Dependency injection is a technique whereby one object supplies the dependencies
     of another object.
 What is static binding and dynamic binding? Static Binding: When type of the object is determined at compiled time, it
-    is known as static binding. Dynamic Binding: When type of the object is determined at run-time. 
+    is known as static binding. Dynamic Binding: When type of the object is determined at run-time.
 
 
 
