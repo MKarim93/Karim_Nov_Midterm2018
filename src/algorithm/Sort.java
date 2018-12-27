@@ -106,4 +106,7 @@ public class Sort {
             System.out.println(array[i]);
         }
     }
+
+    public void MergeSort(int[] num) {
+    }
 }

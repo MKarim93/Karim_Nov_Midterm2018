@@ -52,7 +52,7 @@ What is Big-(O)-notation? Big-(O)-notation is used to describe the performance o
     specifically describes the worst-case scenario, and can be used to describe the execution time required or the space
     used by an algorithm
 Outlined different kind of sorting algorithm with time complexity? Insertion sort, Selection sort, Merge sort, Heapsort,
-    Quicksort, Bubble sort, Shellsort, Comb sort. 
+    Quicksort, Bubble sort, Shellsort, Comb sort.
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

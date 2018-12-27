@@ -216,4 +216,7 @@ public class ConnectToSqlDB {
             System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
         }
     }
+
+    public void insertDataFromArrayToMySql(int[] num, String bubble_sort, String sortingNumbers) {
+    }
 }
